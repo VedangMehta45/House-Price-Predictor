@@ -6,6 +6,8 @@ import pickle
 from huggingface_hub import hf_hub_download
 import os
 
+st.set_page_config(page_title= "House Price Predictor", layout="centered")
+
 @st.cache_resource  # caches on server so model loads only once
 def load_model_from_hf():
     # downloads to HF cache and returns local path
@@ -18,6 +20,8 @@ def load_model_from_hf():
     return joblib.load(model_path)
 
 model = load_model_from_hf()
+
+
 
 # Load pipeline
 # model = joblib.load('house_price_pipeline_py37_new.joblib')
@@ -45,7 +49,7 @@ page_bg = """
 """
 st.markdown(page_bg, unsafe_allow_html=True)
 
-st.set_page_config(page_title= "House Price Predictor", layout="centered")
+
 st.title("House Price Prediction App")
 st.markdown("Welcome to the House Price Predictor app! Enter house details and get price prediction (in lakhs rupees).")
 
