@@ -1,8 +1,9 @@
 streamlit==1.26.1        
 scikit-learn==1.6.1
-pandas==2.1.1              # match Colab
+pandas==2.0.3              # match Colab
 numpy==1.26.1              # match Colab
 joblib==1.5.2
 huggingface_hub==0.18.0
+
 
 
