@@ -1,9 +1,6 @@
-streamlit==1.26.1        
+streamlit==1.26.1
 scikit-learn==1.6.1
-pandas==2.0.3              # match Colab
-numpy==1.26.1              # match Colab
+pandas==2.1.0        # lower than 2.0.3
+numpy==1.25.2        # prebuilt wheel exists, no BLAS compile needed
 joblib==1.5.2
-huggingface_hub==0.18.0
-
-
-
+huggingface_hub==0.16.4
