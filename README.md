@@ -31,3 +31,8 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
+
+```
+<img width="1884" height="1015" alt="Screenshot (275)" src="https://github.com/user-attachments/assets/ab5179de-6a8a-4268-8027-e86388b813d3" />
+<img width="1892" height="1015" alt="Screenshot (276)" src="https://github.com/user-attachments/assets/3e280173-f157-4ab5-aa62-b0db36a7df25" />
+<img width="1901" height="1018" alt="Screenshot (277)" src="https://github.com/user-attachments/assets/7f8dea93-8c0b-4608-b8ad-a882bdd829f2" />
